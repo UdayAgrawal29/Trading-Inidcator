@@ -49,7 +49,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-// Toggle between Monthly, Quarterly, and Yearly pricing
 document.addEventListener("DOMContentLoaded", function() {
     const monthlyPlan = document.getElementById('monthly');
     const quarterlyPlan = document.getElementById('quarterly');

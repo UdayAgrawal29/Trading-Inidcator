@@ -90,7 +90,6 @@ document.addEventListener('DOMContentLoaded', function() {
         updateAmounts();
     });
 
-    // Handle Payment Method Selection
     function showPaymentForm(method) {
         cardForm.style.display = method === 'card' ? 'block' : 'none';
         upiForm.style.display = method === 'upi' ? 'block' : 'none';
